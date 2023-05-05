@@ -1,6 +1,41 @@
 .profile a img {
-    max-width: 32px;
-    max-height: 32px;
-    width: auto;
-    height: auto;
+	max-width: 32px;
+	max-height: 32px;
+	width: auto;
+	height: auto;
+}
+.menu {
+	text-align: center;
+}
+.menu ul li{
+	justify-content: center;
+}
+.menu ul hr {
+	width: 80%;
+	margin: 30px auto 30px auto;
+}
+.upload-button {
+	margin: 20px 0 20px 0;
+	width: 50%;
+}
+.filter-button {
+	margin-bottom: 5px;
+	width: 80%;
+	border-radius: 10rem;
+	text-align: start;
+}
+.upload-tooltip-button {
+	margin: 20px 0 20px 0;
+	width: 100%;
+	border-radius: 0;
+}
+.filter-tooltip-button {
+	margin-bottom: 1px;
+	width: 100%;
+	border-radius: 0;
+}
+.action-button {
+	margin-bottom: 5px;
+	width: 80%;
+	border-radius: 10rem;
 }
