@@ -4,13 +4,10 @@
 	width: auto;
 	height: auto;
 }
-.menu {
-	text-align: center;
-}
-.menu ul li{
+.menu li{
 	justify-content: center;
 }
-.menu ul hr {
+.menu hr {
 	width: 80%;
 	margin: 30px auto 30px auto;
 }
