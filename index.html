@@ -13,12 +13,12 @@
 			<nav class="navbar bg-dark" data-bs-theme="dark">
 				<div class="container">
 					<a class="navbar-brand" href="#">
-						<img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" width="32">
+						<img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="brand">
 						Cloud Stage
 					</a>
 					<div class="profile dropdown justify-content-end">
 						<a href="#" class="link-dark text-decoration-none text-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-							<img src="img/user.svg" alt="" class="rounded-circle">
+							<img src="img/user.svg" alt="user" class="rounded-circle">
 							Username
 						</a>
 						<ul class="dropdown-menu dropdown-menu-end">
@@ -39,8 +39,8 @@
 				</div>
 			</nav>
 		</header>
-		<main>
-			<div class="container-fluid row" data-bs-theme="light">
+		<main class="container-fluid">
+			<div class="row" data-bs-theme="light">
 				<ul class="col-2 bg-secondary-subtle d-none d-xl-block menu">
 					<li class="row">
 						<a href="#" class="btn btn-light btn-lg upload-button">
@@ -118,13 +118,82 @@
 					</li>
 					<hr>
 				</ul>
+				<div class="col-3 nav-files">
+					<nav class="nav bg-secondary-subtle">
+						<ul class="col">
+							<li class="row">
+								<div class="d-flex item-container">
+									<div class="item-toggle">
+										<i class="bi bi-chevron-right"></i>
+									</div>
+									<div class="flex-fill item-content">
+										<div class="d-inline item-content-icon">
+											<i class="bi bi-folder2"></i>
+										</div>
+										<span class="item-content-text">
+											<span>Folder text</span>
+										</span>
+									</div>
+								</div>
+								<div class="d-flex item-container">
+									<div class="item-toggle">
+										<i class="bi bi-chevron-down"></i>
+									</div>
+									<div class="flex-fill item-content">
+										<div class="d-inline item-content-icon">
+											<i class="bi bi-folder2-open"></i>
+										</div>
+										<span class="item-content-text">
+											<span>Folder text</span>
+										</span>
+									</div>
+								</div>
+								<ul class="col group">
+									<li class="row">
+										<div class="d-flex item-container">
+											<div class="item-toggle">
+												<i class="bi bi-chevron-down"></i>
+											</div>
+											<div class="flex-fill item-content">
+												<div class="d-inline item-content-icon">
+													<i class="bi bi-folder2-open"></i>
+												</div>
+												<span class="item-content-text">
+													<span>Folder text</span>
+												</span>
+											</div>
+										</div>
+										<ul class="col group">
+											<li class="row">
+												<div class="d-flex item-container">
+													<div class="flex-fill item-content">
+														<div class="d-inline item-content-icon">
+															<i class="bi bi-file-earmark"></i>
+														</div>
+														<span class="item-content-text">
+															<span>Item text</span>
+														</span>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
 			</div>
 		</main>
+		
 		<footer>
-
+		
 		</footer>
+
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+		<script src="https://accounts.google.com/gsi/client" async defer></script>
+		<script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
 		<script src="javascript/script.js"></script>
 	</body>
 </html>
