@@ -91,5 +91,29 @@
 .group {
 	margin-left: 1rem;
 	height: auto;
-	border-left: 1px solid grey;
+	border-left: 1px solid #414549;
+}
+
+.files-list .grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	margin: 20px;
+}
+
+.custom-card {
+	margin: 2px;
+	text-align: center;
+}
+
+.custom-card:hover {
+	background-color: #212529;
+	color: #FFFFFF;
+	transition: 100ms;
+}
+
+.custom-card-img {
+	max-width: 200px;
+	max-height: 100px;
+	object-fit: cover;
+    object-position: center;
 }
