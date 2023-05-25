@@ -1,3 +1,16 @@
+html,
+body {
+    height: 100vh;
+    margin: 0;
+	display: flex;
+    flex-flow: column;
+}
+
+main {
+	flex-grow: 1;
+    flex-basis: auto;
+}
+
 .navbar-brand img {
 	max-width: 32px;
 	max-height: 32px;
@@ -116,6 +129,7 @@
 	background-color: #212529;
 	color: #FFFFFF;
 	transition: 100ms;
+	cursor: pointer;
 }
 
 .custom-card-img {
